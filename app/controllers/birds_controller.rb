@@ -1,4 +1,6 @@
 class BirdsController < ApplicationController
+  
+  wrap_parameters format: []
 
   # GET /birds
   def index
